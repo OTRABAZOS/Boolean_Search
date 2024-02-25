@@ -1,0 +1,40 @@
+{
+  "name": "boolean-search-async",
+  "version": "0.0.3",
+  "description": "Boolean Query Search",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -t 15000 ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otrabazos/boolean-search-async.git"
+  },
+  "keywords": [
+    "parser",
+    "filter",
+    "semantic",
+    "search",
+    "boolean",
+    "engine",
+    "query",
+    "lucene",
+    "keywords"
+  ],
+  "author": "Josep Subils <js@js.gl>  (http://js.gl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otrabazos/boolean-search-async/issues"
+  },
+  "homepage": "https://github.com/otrabazos/boolean-search-async#readme",
+  "dependencies": {
+    "cleanchar": "^0.1.6",
+    "snc": "^1.2.5",
+    "tck": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "mocha": "^4.0.1",
+    "mocha-eslint": "^4.1.0"
+  }
+}
